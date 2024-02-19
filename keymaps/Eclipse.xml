@@ -1,0 +1,36 @@
+<keymap version="1" name="Eclipse 副本" parent="Eclipse">
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="ctrl space" />
+    <keyboard-shortcut first-keystroke="ctrl b" />
+  </action>
+  <action id="CompileDirty">
+    <keyboard-shortcut first-keystroke="ctrl f9" />
+  </action>
+  <action id="FileChooser.GotoModule" />
+  <action id="Find">
+    <keyboard-shortcut first-keystroke="shift ctrl a" />
+  </action>
+  <action id="GotoAction" />
+  <action id="GotoBookmark3" />
+  <action id="GotoNextError">
+    <keyboard-shortcut first-keystroke="ctrl 3" />
+  </action>
+  <action id="MDD.ToggleActionSounds" />
+  <action id="ParameterInfo">
+    <keyboard-shortcut first-keystroke="alt k" />
+  </action>
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="ctrl alt l" />
+    <keyboard-shortcut first-keystroke="shift ctrl f" />
+    <keyboard-shortcut first-keystroke="alt l" />
+  </action>
+  <action id="SmartTypeCompletion">
+    <keyboard-shortcut first-keystroke="shift alt space" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt space" />
+  </action>
+  <action id="SurroundWith">
+    <keyboard-shortcut first-keystroke="shift alt z" />
+    <keyboard-shortcut first-keystroke="ctrl alt t" />
+    <keyboard-shortcut first-keystroke="alt period" />
+  </action>
+</keymap>

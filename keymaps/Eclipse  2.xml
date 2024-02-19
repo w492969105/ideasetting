@@ -1,0 +1,11 @@
+<keymap version="1" name="Eclipse 副本 2" parent="Eclipse">
+  <action id="CodeCompletion">
+    <keyboard-shortcut first-keystroke="ctrl space" />
+    <keyboard-shortcut first-keystroke="alt slash" />
+  </action>
+  <action id="HippieCompletion" />
+  <action id="InsertLiveTemplate">
+    <keyboard-shortcut first-keystroke="shift ctrl alt j" />
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
+</keymap>

@@ -1,0 +1,11 @@
+<templateSet group="MyGroup">
+  <template name="add" value="/**&#10; * @author ：wanglongjie 15981824671&#10; * @date：$DATE$ $TIME$&#10; * @description：TODO&#10; * @param: $what$&#10; * @return:  $return$&#10; * @modified By：&#10; * @version 1.0&#10; **/" description="方法快速注释" toReformat="false" toShortenFQNames="true">
+    <variable name="DATE" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="TIME" expression="time()" defaultValue="" alwaysStopAt="true" />
+    <variable name="what" expression="methodParameterTypes()" defaultValue="" alwaysStopAt="true" />
+    <variable name="return" expression="methodReturnType()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
